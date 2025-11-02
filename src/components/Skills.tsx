@@ -1,20 +1,28 @@
 const Skills = () => {
   const skillCategories = [
     {
-      category: "Languages",
-      skills: ["C", "C++", "Python", "JavaScript", "TypeScript", "Dart", "Golang", "Bash"]
+      category: "Backend Engineering",
+      skills: ["Golang", "Node.js", "Express.js", "Python", "C/C++", "Microservices", "REST API", "GraphQL"]
     },
     {
-      category: "Frontend",
-      skills: ["React", "Flutter", "HTML/CSS", "Tailwind CSS"]
+      category: "AI & Machine Learning",
+      skills: ["LLM Integration", "AI Agents", "RAG Systems", "Prompt Engineering", "ML Model Deployment"]
     },
     {
-      category: "Backend",
-      skills: ["Express.js", "GraphQL", "REST API", "Docker"]
+      category: "Cloud & DevOps",
+      skills: ["Kubernetes", "Docker", "AWS", "Cloud-Native Architecture", "CI/CD", "Microservices"]
     },
     {
-      category: "Specializations",
-      skills: ["Full Stack Development", "Application Development", "Cybersecurity"]
+      category: "Data & Real-time Systems",
+      skills: ["PostgreSQL", "MongoDB", "Redis", "WebSocket", "Socket.io", "Event-Driven Architecture"]
+    },
+    {
+      category: "Frontend Technologies",
+      skills: ["React", "TypeScript", "JavaScript", "Flutter", "Dart", "HTML/CSS", "Tailwind CSS"]
+    },
+    {
+      category: "System Design",
+      skills: ["Distributed Systems", "Scalability", "Load Balancing", "Caching Strategies", "High Availability"]
     }
   ];
 

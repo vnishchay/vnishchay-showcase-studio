@@ -39,12 +39,12 @@ const Hero = () => {
           
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-4 font-light">
-            Full Stack Developer & Cybersecurity Enthusiast
+            Software Development Engineer II | Backend & AI Systems
           </p>
           
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Student at <span className="text-primary font-semibold">IIIT Sricity</span> | 
-            Building scalable applications with React, Flutter & Docker
+            Building scalable EdTech solutions at <span className="text-primary font-semibold">Toddle</span> | 
+            Specializing in distributed systems, microservices & AI integration
           </p>
           
           {/* CTAs */}

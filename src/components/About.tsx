@@ -4,18 +4,18 @@ const About = () => {
   const highlights = [
     {
       icon: Code2,
-      title: "Full Stack Development",
-      description: "Building scalable web and mobile applications with modern frameworks and tools"
+      title: "Backend Engineering",
+      description: "Architecting microservices and distributed systems at scale for EdTech platforms"
     },
     {
       icon: Shield,
-      title: "Cybersecurity",
-      description: "Passionate about secure coding practices and vulnerability assessment"
+      title: "AI & ML Integration",
+      description: "Building LLM-powered features, AI agents, and RAG systems for production applications"
     },
     {
       icon: Rocket,
-      title: "Innovation",
-      description: "Always exploring new technologies and contributing to open-source projects"
+      title: "System Architecture",
+      description: "Designing cloud-native solutions with Kubernetes, Docker, and event-driven architectures"
     }
   ];
 
@@ -54,19 +54,20 @@ const About = () => {
             {/* Text content */}
             <div className="space-y-6 animate-fade-in-up">
               <h3 className="text-3xl font-heading font-bold">
-                Student & Developer from Varanasi, India
+                Software Engineer from Delhi, India
               </h3>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Currently pursuing my studies at the <span className="text-primary font-semibold">Indian Institute of Information Technology Sricity</span>, 
-                I'm deeply passionate about building innovative solutions that make a difference.
+                Currently serving as <span className="text-primary font-semibold">Software Development Engineer II at Toddle</span>, 
+                where I architect and build scalable backend systems that power educational experiences for thousands of users globally.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                With expertise spanning from <span className="text-primary font-semibold">Full Stack Development</span> to <span className="text-primary font-semibold">Cybersecurity</span>, 
-                I love tackling challenging problems and continuously learning new technologies.
+                With <span className="text-primary font-semibold">nearly 3 years of professional experience</span> in backend engineering, 
+                I specialize in building distributed systems, microservices architectures, and integrating cutting-edge AI/ML solutions into production environments.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                <span className="text-accent font-semibold">I love connecting with different people</span>, so if you want to say hi, 
-                I'll be happy to meet you! 😊
+                My expertise spans <span className="text-primary font-semibold">Golang, Node.js, Kubernetes, and AI/LLM integration</span>, 
+                with a proven track record of delivering high-performance, cloud-native solutions. Graduate of <span className="text-accent font-semibold">IIIT Sricity</span> with 
+                strong foundations in algorithms and system design.
               </p>
             </div>
           </div>

@@ -21,6 +21,7 @@ const Navigation = () => {
     { label: "Experience", href: "#experience" },
     { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },
+    { label: "Testimonials", href: "#testimonials" },
     { label: "Contact", href: "#contact" }
   ];
 
@@ -34,7 +35,7 @@ const Navigation = () => {
     <nav 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled 
-          ? 'bg-background/80 backdrop-blur-lg border-b border-border shadow-lg' 
+          ? 'glass-effect border-b border-border/50 shadow-2xl' 
           : 'bg-transparent'
       }`}
     >
@@ -47,7 +48,7 @@ const Navigation = () => {
               e.preventDefault();
               scrollToSection('#home');
             }}
-            className="text-xl font-heading font-bold gradient-text"
+            className="text-xl font-heading font-bold gradient-text hover:scale-110 transition-transform"
           >
             Nishchay.dev
           </a>
@@ -62,7 +63,7 @@ const Navigation = () => {
                   e.preventDefault();
                   scrollToSection(item.href);
                 }}
-                className="text-sm font-medium hover:text-primary transition-colors"
+                className="text-sm font-medium hover:text-primary transition-all hover:scale-110 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:transition-all hover:after:w-full"
               >
                 {item.label}
               </a>

@@ -45,7 +45,7 @@ const Hero = () => {
           
           {/* Subtitle */}
           <p className="text-2xl md:text-3xl text-foreground mb-4 font-semibold">
-            Senior Software Engineer
+            Software Engineer
           </p>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">

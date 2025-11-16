@@ -5,8 +5,8 @@ const CodingProfiles = () => {
   const profiles = [
     {
       platform: "LeetCode",
-      username: "nichahylc2000",
-      url: "https://leetcode.com/u/nichahylc2000/",
+      username: "nishchaylc2000",
+      url: "https://leetcode.com/u/nishchaylc2000/",
       achievement: "Top 8%",
       description: "600+ problems solved with consistent high performance",
       icon: Code,

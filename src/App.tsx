@@ -8,12 +8,29 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+// Get base path for GitHub Pages deployment
+const getBasename = () => {
+  // Check if we're on GitHub Pages by looking at the current pathname
+  // This works for both runtime and build-time detection
+  if (typeof window !== 'undefined') {
+    const pathname = window.location.pathname;
+    if (pathname.startsWith('/vnishchay-showcase-studio')) {
+      return '/vnishchay-showcase-studio';
+    }
+  }
+  // Fallback: check environment variables (for build-time)
+  if (import.meta.env.VITE_GITHUB_PAGES === 'true' || import.meta.env.GITHUB_PAGES === 'true') {
+    return '/vnishchay-showcase-studio';
+  }
+  return '/';
+};
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename={getBasename()}>
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

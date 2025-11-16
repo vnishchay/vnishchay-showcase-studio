@@ -20,7 +20,7 @@ const Projects = () => {
       description: "An interview conducting platform where interviewers and candidates can connect for real-time interviews. Features user authentication, interview scheduling, question management, and interview details tracking.",
       tech: ["JavaScript", "React", "Node.js", "MongoDB", "Express"],
       github: "https://github.com/vnishchay/interview-zone",
-      deploy: null,
+      deploy: "https://interview-zone-frontend.web.app/",
       preview: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=600&fit=crop",
       stars: 5,
       forks: 2,

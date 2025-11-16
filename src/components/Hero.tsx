@@ -66,7 +66,7 @@ const Hero = () => {
               size="lg"
               variant="outline"
               className="glass-effect border-2 border-primary/50 hover:bg-primary/20 text-lg px-8 py-6 font-bold transition-spring hover:scale-110"
-              onClick={() => window.open('/resume.pdf', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1aJDXbVhkOeUIAlP6IjexqDqJdgDZxhQN/view', '_blank')}
             >
               <Download className="mr-2 w-5 h-5" />
               Download Resume

@@ -176,7 +176,7 @@ const Experience = () => {
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-primary mt-1">✓</span>
-                <span className="text-muted-foreground">LeetCode: 600+ problems solved with consistent high performance</span>
+                <span className="text-muted-foreground">LeetCode: Top 8% ranking with 600+ problems solved</span>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-primary mt-1">✓</span>

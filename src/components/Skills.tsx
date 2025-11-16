@@ -74,16 +74,29 @@ const Skills = () => {
             <h3 className="text-2xl font-heading font-semibold mb-8">GitHub Statistics</h3>
             <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
               <img 
-                src="https://github-readme-stats.vercel.app/api?username=vnishchay&show_icons=true&include_all_commits=true&theme=blue-green&count_private=true"
+                src="https://github-readme-stats.vercel.app/api?username=vnishchay&show_icons=true&include_all_commits=true&theme=tokyonight&count_private=true&hide_border=true"
                 alt="GitHub Stats"
                 className="rounded-xl border border-border card-shadow max-w-full h-auto"
+                loading="lazy"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.src = `https://github-readme-stats.vercel.app/api?username=vnishchay&show_icons=true&theme=default&count_private=true`;
+                }}
               />
               <img 
-                src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=vnishchay&layout=compact&theme=blue-green"
+                src="https://github-readme-stats.vercel.app/api/top-langs/?username=vnishchay&layout=compact&theme=tokyonight&hide_border=true"
                 alt="Top Languages"
                 className="rounded-xl border border-border card-shadow max-w-full h-auto"
+                loading="lazy"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.src = `https://github-readme-stats.vercel.app/api/top-langs/?username=vnishchay&layout=compact&theme=default`;
+                }}
               />
             </div>
+            <p className="text-sm text-muted-foreground mt-4">
+              View more on <a href="https://github.com/vnishchay" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">GitHub</a>
+            </p>
           </div>
         </div>
       </div>

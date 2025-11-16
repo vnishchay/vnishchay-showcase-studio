@@ -47,13 +47,19 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://vnishchay.github.io/vnishchay-showcase-studio/
     runs-on: ubuntu-latest
     needs: build
+    outputs:
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          preview: false
+      
+      - name: Output deployment URL
+        run: |
+          echo "🚀 Deployment successful!"
+          echo "Deployment URL: ${{ steps.deployment.outputs.page_url }}"
+          echo "Site URL: https://vnishchay.github.io/vnishchay-showcase-studio/"
 

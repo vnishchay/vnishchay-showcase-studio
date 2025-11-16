@@ -46,7 +46,7 @@ const About = () => {
                 <img 
                   src="https://avatars.githubusercontent.com/u/56715777?v=4" 
                   alt="Nishchay Verma"
-                  className="relative rounded-2xl w-80 h-80 object-cover border-4 border-primary/20 card-shadow"
+                  className="relative rounded-2xl w-56 h-56 md:w-64 md:h-64 object-cover border-4 border-primary/20 card-shadow"
                 />
               </div>
             </div>
